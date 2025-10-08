@@ -16,34 +16,6 @@ Unlike modern setups handled by frameworks like React or Angular, this project i
 
 ---
 
-## 🗂️ Folder Structure
-TODOAPP/
-│
-├── controllers/
-│   └── todoController.js        # Handles business logic
-│
-├── models/
-│   └── todoModel.js             # Defines Mongoose schema
-│
-├── routes/
-│   └── todoRoutes.js            # Application routes
-│
-├── views/
-│   ├── index.jsx                # Main page template
-│   └── Layout.jsx               # Common layout structure
-│
-├── public/
-│   ├── script.js                # Client-side JavaScript
-│   └── style.css                # Styling for the app
-│
-├── db.js                        # MongoDB connection setup
-├── app.js                       # Application entry point
-├── package.json                 # Project dependencies & scripts
-└── package-lock.json            # Dependency lock file
-
-
----
-
 ## ⚙️ Tech Stack
 - **Node.js**  
 - **Express.js**  
