@@ -20,26 +20,26 @@ Unlike modern setups handled by frameworks like React or Angular, this project i
 TODOAPP/
 │
 ├── controllers/
-│ └── todoController.js # Handles business logic
+│   └── todoController.js        # Handles business logic
 │
 ├── models/
-│ └── todoModel.js # Defines Mongoose schema
+│   └── todoModel.js             # Defines Mongoose schema
 │
 ├── routes/
-│ └── todoRoutes.js # Route definitions
+│   └── todoRoutes.js            # Application routes
 │
 ├── views/
-│ ├── index.jsx # Home page template
-│ └── Layout.jsx # Reusable layout
+│   ├── index.jsx                # Main page template
+│   └── Layout.jsx               # Common layout structure
 │
 ├── public/
-│ ├── script.js # Client-side JS
-│ └── style.css # CSS styles
+│   ├── script.js                # Client-side JavaScript
+│   └── style.css                # Styling for the app
 │
-├── db.js # MongoDB connection setup
-├── app.js # Main server file
-├── package.json
-└── package-lock.json
+├── db.js                        # MongoDB connection setup
+├── app.js                       # Application entry point
+├── package.json                 # Project dependencies & scripts
+└── package-lock.json            # Dependency lock file
 
 
 ---
